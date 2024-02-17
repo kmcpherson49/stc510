@@ -1,0 +1,77 @@
+ Previous history removed since not relevant
+   45  pwd
+   46  cd /
+   47  pwd
+   48  ls
+   49  ls -l
+   50  pwd
+   51  cd home
+   52  cd /c/Users/Krista
+   53  pwd
+   54  ls
+   55  cd
+   56  pwd
+   57  mkdir data
+   58  ls
+   59  cd data
+   60  cd
+   61  ls
+   62  cd data
+   63  man curl
+   64  --help curl
+   65  curl --help
+   66  curl --help all
+   67  curl http://alex.halavais.net/ > teachersite.html
+   68  ls
+   69  cat teachersite.html
+   70  less teachersite.html
+   71  head teachersite.html
+   72  script --help
+   73  history
+   74  history >> historytest.txt
+   75  ls
+   76  cat historytest.txt
+   77  clear
+   78  ls
+   79  cd log.tar.gz
+   80  tar -xvzf log.tar.gz
+   81  head log.csv
+   82  curl -o GPL-3 https://www.gnu.org/licenses/gpl-3.0.txt
+   83  cat << 'EOF' > BSD
+Copyright (c) The Regents of the University of California.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. Neither the name of the University nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
+EOF
+
+   84  ls
+   85  grep "education.txt" log.csv
+   86  grep education.txt log.csv
+   87  grep education*.txt log.csv
+   88  grep 'education$^.txt' log.csv
+   89  grep 'education$.txt' log.csv
+   90  grep 'education$' log.csv
+   91  history
+   92  history >> historytextv2.txt
